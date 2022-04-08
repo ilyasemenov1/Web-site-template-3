@@ -63,7 +63,6 @@ body {
     grid-template-columns: 720px auto;
     grid-column-gap: 64px;
     padding: 0 40px;
-    outline: 1px #424242 solid;
 }
 .introduction-block__img {
     min-height: 720px;
@@ -175,6 +174,61 @@ body {
     height: 80px;
     background-image: url("../img/decoration-img/group-2/shape_6036.png");
 }
+.decoration-img-group-2__img-4 {
+    left: calc(100% - 128px);
+    top: calc(100% - 171px);
+    width: 118px;
+    height: 131px;
+    background-image: url("../img/decoration-img/group-2/shape_6035.png");
+}
+.decoration-img-group-2__img-5 {
+    left: calc(100% - 161px);
+    top: calc(100% - 129px);
+    width: 161px;
+    height: 151px;
+    background-image: url("../img/decoration-img/group-2/floral_6003.png");
+}
+.decoration-img-group-2__img-6 {
+    left: calc(100% - 205px);
+    top: calc(100% - 90px);
+    width: 205px;
+    height: 137px;
+    background-image: url("../img/decoration-img/group-2/brush_6000.png");
+}
+.pengant-women-program {
+    min-height: 807px;
+    padding: 0px 90px;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/shape_5046.jpg");
+}
+.pengant-women-program-img__content {
+    display: flex;
+    flex-direction: column;
+    max-width: 640px;
+    padding: 125px 0 40px 0
+}
+.pengant-women-program-img__label {
+    margin: 0 0 66px 0;
+    font-family: 'Open Sans';
+    font-size: 75px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    color: #484f5b;
+}
+.pengant-women-program-img__text {
+    margin: 0 0 85px 0;
+    font-family: 'Open Sans';
+    font-size: 21px;
+    line-height: 33px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    color: #484f5b;
+}
+
 @font-face {
     font-family: "Open Sans";
     src: url("../fonts/OpenSans-Light.ttf");
