@@ -5,6 +5,9 @@
     max-width: 1440px;
     box-sizing: border-box;
 }
+img {
+    background: #d3d3d3;
+}
 body {
     padding: 0;
     margin: 0;
@@ -195,7 +198,7 @@ body {
     height: 137px;
     background-image: url("../img/decoration-img/group-2/brush_6000.png");
 }
-.pengant-women-program {
+.pengant-women-program-img {
     min-height: 807px;
     padding: 0px 90px;
     margin: 0;
@@ -212,7 +215,7 @@ body {
 }
 .pengant-women-program-img__label {
     margin: 0 0 66px 0;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-size: 75px;
     line-height: 1.2;
     font-weight: 700;
@@ -221,14 +224,136 @@ body {
 }
 .pengant-women-program-img__text {
     margin: 0 0 85px 0;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-size: 21px;
     line-height: 33px;
     font-weight: 400;
     letter-spacing: 0.01em;
     color: #484f5b;
 }
+.pengant-women-program-programs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 90px;
+    padding: 110px 166px;
+}
+.pengant-women-program-programs__program-block {
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    position: relative;
+    max-width: 300px;
+    padding: 200px 0 0 0;
+}
+.pengant-women-program-programs__label,
+.pengant-women-program-programs__text {
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    line-height: 33px;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #484f5b;
+}
+.pengant-women-program-programs__text {
+    margin: 0;
+    font-size: 21px;
+    font-weight: 400;
+}
+.pengant-women-program-programs__program-block::after,
+.pengant-women-program-programs__program-block::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.program-1::after {
+    width: 244px;
+    height: 142px;
+    left: 20px;
+    top: 33px;
+    background-image: url("../img/programs-bloc-img/brush_6033.png");
+}
+.program-1::before {
+    width: 215px;
+    height: 89px;
+    left: 38px;
+    top: 62px;
+    background-image: url("../img/programs-bloc-img/icon_6024.png");
+    z-index: 5;
+}
+.program-2::after {
+    width: 191px;
+    height: 180px;
+    left: 57px;
+    top: 20px;
+    background-image: url("../img/programs-bloc-img/brush_6032.png");
+}
+.program-2::before {
+    width: 214px;
+    height: 140px;
+    left: 38px;
+    top: 14px;
+    background-image: url("../img/programs-bloc-img/icon_6023.png");
+    z-index: 5;
+}
+.program-3::after {
+    width: 206px;
+    height: 186px;
+    left: 57px;
+    top: 0px;
+    background-image: url("../img/programs-bloc-img/brush_6031.png");
+}
+.program-3::before {
+    width: 214px;
+    height: 136px;
+    left: 42px;
+    top: 14px;
+    background-image: url("../img/programs-bloc-img/icon_6022.png");
+    z-index: 5;
+}
+.yoga {
+    outline: 1px solid;
 
+    position: relative;
+    display: grid;
+    grid-template-columns: auto 629px;
+    grid-column-gap: 80px;
+    padding: 83px 93px;
+}
+.yoga-content {
+    display: flex;
+    flex-direction: column;
+    padding: 44px 0 0 0;
+    row-gap: 40px;
+}
+.yoga-content__label {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 58px;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    color: #484f5b;
+}
+.yoga-content__text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+    line-height: 33px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    color: #484f5b;
+}
+.yoga-img {
+    position: relative;
+    width: 629px;
+    height: 439px;
+    background: #d3d3d3;
+}
 @font-face {
     font-family: "Open Sans";
     src: url("../fonts/OpenSans-Light.ttf");
